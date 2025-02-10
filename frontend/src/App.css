@@ -1,0 +1,50 @@
+/* src/App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.speech-recognition-container,
+.shopping-list,
+.smart-suggestions {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+h1,
+h3 {
+  color: #333;
+}
+
+.shopping-list button {
+  background-color: #f44336;
+}
+
+.shopping-list button:hover {
+  background-color: #d32f2f;
+}
