@@ -1,0 +1,12 @@
+services:
+  - name: voice-shopping-backend
+    type: web
+    env: node
+    region: singapore 
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: MONGO_URI
+        sync: false  
