@@ -1,50 +1,29 @@
-/* src/App.css */
-
-.App {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 20px;
+.scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  margin: 10px;
-  cursor: pointer;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
+.scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.201);
+  border-radius: 10px;
 }
 
-button:hover {
-  background-color: #45a049;
+.scroll::-webkit-scrollbar-thumb {
+  background: #00000025;
+  border-radius: 10px;
 }
 
-.speech-recognition-container,
-.shopping-list,
-.smart-suggestions {
-  margin-bottom: 30px;
+.scroll::-webkit-scrollbar:horizontal {
+  width: 5px;
+  height: 10px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.scroll::-webkit-scrollbar-track:horizontal {
+  background: rgba(255, 255, 255, 0.201);
+  border-radius: 10px;
 }
 
-li {
-  margin: 10px 0;
-}
-
-h1,
-h3 {
-  color: #333;
-}
-
-.shopping-list button {
-  background-color: #f44336;
-}
-
-.shopping-list button:hover {
-  background-color: #d32f2f;
+.scroll::-webkit-scrollbar-thumb:horizontal {
+  background: #00000025;
+  border-radius: 10px;
 }
